@@ -1,0 +1,321 @@
+	body{
+		margin: 0px;
+	}
+	header{
+		height: 400px;
+		/*background-color: blue;*/
+		background-image: url('Street-Light-in-Dark-Night.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+	nav{
+		color: white;
+		display: flex;
+		justify-content: space-between;
+		height: 75px;
+		/*background-color: royalblue;*/
+		padding: 40px
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	footer{
+		padding-top: 20px;
+		text-align: center;
+ 		color: white;
+		height: 50px;
+		background-color: black;
+	}
+	li{
+		display: inline;
+		margin-right: 20px;
+	}
+	h1{
+		font-weight: lighter;
+		font-size: 32px;
+		letter-spacing: 0px;
+		text-transform: none;
+		line-height: 1.2em;
+	}
+	h2{
+		padding: 50px;
+		font-size: 14px;
+		text-align: center;
+		color: rgba(26,26,26,.7);
+		font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+	}
+p{
+	text-align: center;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: rgba(26,26,26,.7);
+}
+.email{
+	width: 20%;
+	height: 35px;
+	text-align: center;
+	color: lightgrey;
+}
+.skills{
+	display: flex;
+	background-size: auto
+	width: 220px;
+	height: 220px;
+}
+#left{
+	margin: 10px;
+	background-size: auto;
+	background-image: url('download.png');
+	width: 220px;
+	height: 220px;
+}
+#right{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('Java_logo.jpg');
+	width: 220px;
+	height: 220	px;
+}
+#cpp{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('download (1).png');
+	width: 220px;
+	height: 220px;
+}
+#cs{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('logo.png');
+	width: 220px;
+	height: 220px;
+}
+#Labview{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('download (2).png');
+	width: 220px;
+	height: 220px;
+}
+#left2{
+	width: 600px;
+	background-color: white;
+}
+#right2{
+	background-size: cover;
+	background-image: url('image.jpg');
+	width: 600px;
+}
+span{
+	display: none;
+	padding: 50px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	font-family: proxima-nova;
+	font-weight: 600;
+	font-style: normal;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	line-height: 1.1em;
+}
+#creativity{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('58251252cd6843e4290ec36a940aaa96.jpg');
+	width: 220px;
+	height: 220px;
+}
+.skills #creativity:hover{
+	background-image: url('fggbssg.jpg');
+	display: inline-block;
+}
+.skills #creativity:hover span{
+	display: inline-block;
+}
+#Comunicative{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('download (3).png');
+	width: 220px;
+	height: 220px;
+}
+.skills #Comunicative:hover{
+	background-image: url('dfvavddd.jpg');
+	display: inline-block;
+}
+.skills #Comunicative:hover span{
+	display: inline-block;
+}
+#Football{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('download (1).jpg');
+	width: 220px;
+	height: 220px;
+}
+.skills #Football:hover{
+	background-image: url('download (1) (1).jpg');
+	display: inline-block;
+}
+.skills #Football:hover span{
+	display: inline-block;
+}
+#Swimming{
+	margin: 10px;
+	background-size: cover;
+	background-image: url('download (2).jpg');
+	width: 220px;
+	height: 220px;
+}
+.skills #Swimming:hover{
+	background-image: url('download (2) (1).jpg');
+	display: inline-block;
+}
+.skills #Swimming:hover span{
+	display: inline-block;
+}
+	.button{
+		color: white;
+		background-color: transparent;
+		border-color: white;
+		border: 2px solid #fff;
+		border-radius: 300px;
+		padding: 13px 19px 13px 19px;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 13px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+	.two{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#sustainability{
+		text-align: center;
+    font-weight: 400;
+    font-family:Helvetica;
+    font-size: 24px;
+    letter-spacing: 1px;
+		text-transform: uppercase;
+    line-height: 1.5em;
+    color: #fff;
+	}
+	#startswithyou{
+		text-align: center;
+		color: white;
+		display: block;
+		font-family:Helvetica;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 68px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		line-height: 1em;
+		color: #fff;
+	}
+	#LEARN{
+		background-color: #36b3a8;
+		border-color: transparent;
+		display: inline-block;
+		margin-left:560px;
+	}
+
+	#LEARN2{
+		background-color: #36b3a8;
+		border-color: transparent;
+		display: inline-block;
+		margin-left:210px;
+	}
+	#LEARN3{
+		background-color: #36b3a8;
+		border-color: transparent;
+		display: inline-block;
+		margin-left:210px;
+	}
+	#LEARN4{
+		background-color: black;
+		color: white;
+		border-color: transparent;
+		display: inline-block;
+		padding: 13px 19px 13px 19px;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 13px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+#logo img{
+
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    width: 80px;
+    z-index: 0;
+}
+	#logo2{
+		letter-spacing: 7px;
+		color: white;
+		font-size: 20px;
+	}
+	#links{
+		font-weight: 600;
+		font-style: normal;
+		font-size: 13px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 1em;
+	}
+	#darkgrey{
+		padding-bottom: 900px;
+		margin: 75px 100px 75px 100px;
+		height: 400px;
+		background-color: white;
+	}
+	#lightgrey{
+		height: 200px;
+		background-color: lightgrey;
+		text-align: center;
+		padding-top: 20px;
+	}
+	#cyan{
+		text-align: center;
+		background-color: white;
+	}
+	.skills h2{
+		font-size: 11px;
+		font-weight: normal;
+		margin: 0;
+		text-transform: uppercase;
+		max-width: 180px;
+		padding: 5px 7px;
+		background: #000;
+		color: #fff;
+	}
+	#red{
+		padding-top: 100px;
+		height: 400px;
+	}
+	#green{
+		padding-top: 100px;
+		height: 200px;
+	}
+	#yellow{
+		padding-top: 100px;
+		height: 200px;
+	}
